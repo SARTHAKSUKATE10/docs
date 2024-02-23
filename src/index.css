@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/gilroy/v17/Gilroy-Regular.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/s/gilroy/v17/Gilroy-Regular.woff) format('woff'),
+       url(https://fonts.gstatic.com/s/gilroy/v17/Gilroy-Regular.otf) format('otf'),
+       url(https://fonts.gstatic.com/s/gilroy/v17/Gilroy-Regular.ttf) format('truetype');
+}
+
+*{
+  font-family:"Gilroy";
+}
+
+::selection{
+  color: rgb(232 , 145, 47);
+}
